@@ -9,11 +9,6 @@ body {
     margin: 0 auto;
   }
   
-  label {
-    display: block;S
-    margin-bottom: 5px;
-  }
-  
   input {
     width: 100%;
     padding: 10px;
