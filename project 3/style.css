@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background: url('/gif.gif');
+    color: rgba(0, 0, 0, 0.8); /* Black text color with alpha (transparency) */
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .transparent-container {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: black; /* Black text color */
+    font-weight: bold; /* Bold font */
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    background-color: rgba(255, 255, 255, 0.7);
+    color: black; /* Black text color */
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px 20px;
+    border: none;
+    background-color: #007BFF;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  #output {
+    text-align: center;
+    margin-top: 20;
+    color:#fff;
+  }  
+  footer{
+    text-align: center;
+    margin-top: 20;
+    color:#fff;
+  }
